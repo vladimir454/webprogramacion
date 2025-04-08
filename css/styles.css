@@ -5,6 +5,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     }
+
+nav{
+    background-color: #52a05c;
+    margin: 0;
+    padding:10px;
+    overflow: hidden;
+
+}
+nav a{
+    
+        color: white;
+        padding: 8px;
+        /* background-color: #dddddd; */
+        text-decoration: none;
+}
+a:hover{
+    background-color: aquamarine;
+}
 img{
 
     width: 500px;
@@ -45,5 +63,9 @@ header h1{
     color: green;
 }
 .footer{
+    background-color: #52a05c;
     font-style: italic;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
